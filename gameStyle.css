@@ -1,0 +1,147 @@
+#gameContainer{
+    width: 700px;
+    height: 400px;
+    border: 1px solid grey;
+    background-color: #00e1ff;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 4px 4px 6px 2px;
+}
+
+#scoreBox{
+    background-color: #ebff6b;
+    color: black;
+    width: 55px;
+    padding: 5px;
+    position: absolute;
+    left: 640px;
+    border-radius: 5px;
+}
+
+#correctBox{
+    background-color: #157520;
+    color: white;
+    width: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 320px;
+    display: none;
+}
+
+#wrongBox{
+    background-color: #de1502;
+    color: white;
+    width: 45px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 320px;
+    display: none;
+}
+
+#questionBox{
+    width: 600px;
+    height: 80px;
+    background-color: #9089f0;
+    padding: 15px;
+    margin: 40px auto;
+    border-radius: 25px;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    font-family: Anton, sans-serif;
+}
+
+#instructionBox{
+    width: 600px;
+    background-color: #9089f0;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#choices{
+    width: 600px;
+    height: 110px;
+    margin: 15px auto;
+}
+
+.box{
+    width: 101px;
+    height: 101px;
+    background-color: #3377ff;
+    float: left;
+    margin-right: 65px;
+    border-radius: 15px;
+    transition: 0.5s ease;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 70px;
+}
+
+#box4{
+    margin-right: 0;
+}
+
+.box:hover{
+    width: 101px;
+    height: 101px;
+    background-color: #8d30d9;
+    float: left;
+    margin-right: 65px;
+    border-radius: 15px;
+}
+
+#play{
+    background-color: #e5f01f;
+    width: 52px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px auto;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#play:hover{
+    background-color: #f7c81b;
+    width: 52px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+#timeBox{
+    background-color: #35e859;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 540px;
+    color: #000000;
+    line-height: 2;
+    font-size: 17px;
+    display: none;
+}
+
+#gameoverBox{
+    background: linear-gradient(#ff2626, #ff5959);
+    width: 600px;
+    height: 250px;
+    font-size: 50px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 65px;
+    left: 60px;
+    color: white;
+    z-index: 2;
+    display: none;
+}

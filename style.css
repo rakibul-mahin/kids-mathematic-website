@@ -1,0 +1,114 @@
+#container{
+	width: 1060px;
+	border: 1px solid grey;
+	margin: 0 auto;
+}
+
+h1 a{
+	text-decoration: none;
+	font-size: 100px;
+	font-weight: 180;
+	color: #006aff;
+	padding-left: 275px;
+}
+
+#header{
+	background:  linear-gradient(#ff9100,  #f7a334);
+}
+
+#brandName{
+	padding: 4px;
+}
+
+#navBar{
+	height: 50px;
+	background: linear-gradient(#00b9fc, #4dcaf7);
+	padding: 4px 0;
+	margin: 10px 0;
+}
+
+ul{
+	list-style: none;
+}
+
+#navBar ul li{
+	float: left;
+	padding: 0 60px;
+	height: 30px;
+	border-right: 2px solid #b300ff;
+}
+
+#navBar ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #b300ff;
+	line-height: 30px;
+	transition: font-size 0.5s ease;
+}
+
+#navBar ul li:last-child{
+	border-right: none;
+}
+
+#navBar ul li a:hover, #navBar ul li a.active{
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+#intro{
+	background: linear-gradient(#ff9100,  #f7a334);
+	padding: 50px;
+	margin: 15px 0;
+	font-size: 25px;
+	color: white;
+}
+
+.sideBar{
+	width: 500px;
+	height: 350px;
+	border: 3px solid #ff9100;
+	border-radius: 20px;
+	float: left;
+}
+
+#leftSideBar{
+	float: left;
+	font-size: 25px;
+}
+
+#rightSideBar{
+	float: right;
+	font-size: 25px;
+}
+
+#leftSideBar ul li{
+	list-style: none;
+
+}
+
+#leftSideBar ul li a{
+	text-decoration: none;
+	color: #b300ff;
+	padding-left: 155px;
+}
+
+#leftSideBar h3{
+	padding-left: 200px;
+}
+
+#rightSideBar h3{
+	padding-left: 170px;
+}
+
+#rightSideBar p{
+	padding-left: 3px;
+}
+
+.supportButton{
+	margin-left: 200px;
+	background: #bf00ff;
+	color: #ffffff;
+}
+

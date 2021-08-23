@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multiplying</title>
+        <link rel="stylesheet" href="gameStyle.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">  <!-- Header Start -->
+			     <div id="brandName">  <!-- BrandName Starts -->
+                    <h1><a href="#">Easy Maths</a></h1>
+			     </div>  <!-- BrandName Ends -->
+			     <div class="clear"></div>
+		    </div>  <!-- Header Ends -->
+            
+            <div id="navBar">  <!-- NavBar Starts -->
+			     <ul>
+				    <li><a href="index.html">Home</a></li>
+				    <li><a href="#">Addition</a></li>
+				    <li><a href="#">Subtraction</a></li>
+				    <li><a href="#" class="active">Multiplication</a></li>
+				    <li><a href="#">Division</a></li>
+			     </ul>
+			     <div class="clear"></div>
+            </div>  <!-- NavBar Ends -->
+        </div>
+        
+        <div id="gameContainer">
+            <div id="scoreBox">
+                Score: <span id="scoreValue">0</span>
+            </div>
+            <div id="correctBox">
+                Correct
+            </div>
+            <div id="wrongBox">
+                Wrong 
+            </div>
+            <div id="questionBox">
+                
+            </div>
+            <div id="instructionBox">
+                Choose the Correct Answer
+            </div>
+            <div id="choices">
+                <div id="box1" class="box"></div>
+                <div id="box2" class="box"></div>
+                <div id="box3" class="box"></div>
+                <div id="box4" class="box"></div>
+            </div>
+            <div id="play">
+                START
+            </div>
+            <div id="timeBox">
+                Time Remaining: <span id="timeRemaining">60</span>s
+            </div>
+            <div id="gameoverBox">
+                
+               
+            </div>
+        </div>
+        <script type="text/javascript" src="mulLogic.js"></script>
+    </body>
+</html>
